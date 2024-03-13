@@ -34,6 +34,7 @@
                     TextChanged="OnEntryTextChanged"
                     Completed="OnEntryCompleted"
                     MinimumWidthRequest="128"
+                    HorizontalTextAlignment="Center"
                     Grid.Row="1" Grid.Column="1"/>
                 <Button x:Name="btnIncreaseWeight" Text="+" Clicked="btnIncreaseWeight_Clicked" Grid.Row="1" Grid.Column="2"></Button>
 
@@ -43,6 +44,7 @@
                        MinimumWidthRequest="128"
                        Grid.Row="3" Grid.Column="1"
                        TextChanged="RepsCompleted_TextChanged"
+                       HorizontalTextAlignment="Center"
                        Completed="RepsCompleted_Completed"></Entry>
                 <Button x:Name="btnIncreaseReps" Text="+" Clicked="IncreaseReps" Grid.Row="3" Grid.Column="2"></Button>
             </Grid>
